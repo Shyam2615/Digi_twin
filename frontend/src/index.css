@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.model-container {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.model-background {
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+}
+
+.navbar-custom {
+    background: radial-gradient(125% 125% at 100% 50%, #000 40%, #63e 100%);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.cw{
+    color: white;
+}
